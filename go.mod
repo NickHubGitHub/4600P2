@@ -1,4 +1,4 @@
-module https://github.com/NickHubGitHub/4600P2
+module github.com/NickHubGitHub/4600P2
 
 go 1.19
 
