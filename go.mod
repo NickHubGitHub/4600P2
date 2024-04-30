@@ -1,4 +1,4 @@
-module github.com/jh125486/CSCE4600
+module https://github.com/NickHubGitHub/4600P2
 
 go 1.19
 
