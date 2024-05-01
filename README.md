@@ -1,18 +1,27 @@
-# Project Files CSCE 4600
-[![golangci-lint](https://github.com/jh125486/CSCE4600/actions/workflows/golangci-lint.yml/badge.svg?branch=main)](https://github.com/jh125486/CSCE4600/actions/workflows/golangci-lint.yml)
-![Coverage](https://img.shields.io/badge/Coverage-64.2%25-yellow)
+# Project2 Readme
 
-## Operating Systems
+## Commands Implemented:
+- `cat`
+- `pwd`
+- `head`
+- `tail`
+- `rm`
 
-Concepts in operating system analysis and design. General topics of process, resource and file management are presented and analyzed in the context of different system architectures and performance constraints.
+## How to Run:
+1. First, in your terminal `cd` to the "project2" directory.
+2. Second, run the command `go run .` to start the program.
+3. Third, run the given commands above.
 
-## [Project 1: Process Scheduler](https://github.com/jh125486/CSCE4600/tree/main/Project1)
+## Available Text Files:
+- `dolphin.txt`: Contains text related to dolphins.
+- `4600Syllabus.txt`: Syllabus file for a course.
 
+## Usage Examples:
+- Run `cat dolphin.txt` to output the content of the dolphin file.
+- Run `head 4600Syllabus.txt` to see the first 15 lines of the syllabus file.
+- Run `tail 4600Syllabus.txt` to see the last 15 lines of the syllabus file.
+- Run `rm remove.txt` to remove the `remove.txt` file.
+- Run `pwd` to see your current directory.
 
-You can't take an operating systems class without programming a process scheduler.  It's against the Geneva code or something.
-Design a program that implements several different CPU scheduling algorithms.
-
-
-## [Project 2: Shell Builtins](https://github.com/jh125486/CSCE4600/tree/main/Project2)
-
-A twist on a classic "build your own shell". The *very* basic shell is already written, but you will choose five (5) shell builtins (or shell-adjacent) commands to rewrite into Go, and integrate into the Go shell.
+## Exiting the Program:
+After you are finished testing the commands, run the `exit` command to exit the program.
