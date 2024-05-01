@@ -15,6 +15,8 @@
 ## Available Text Files:
 - `dolphin.txt`: Contains text related to dolphins.
 - `4600Syllabus.txt`: Syllabus file for a course.
+- `remove.txt`: file to remove.
+
 
 ## Usage Examples:
 - Run `cat dolphin.txt` to output the content of the dolphin file.
