@@ -82,6 +82,10 @@ func handleInput(w io.Writer, input string, exit chan<- struct{}) error {
 		return builtins.PrintWorkingDirectory()
 	case "cat":
 		return builtins.Cat(args...)
+	case "head":
+		return builtins.Head(args...)
+	case "tail":
+		return builtins.Tail(args...)
 	case "exit":
 		exit <- struct{}{}
 		return nil
